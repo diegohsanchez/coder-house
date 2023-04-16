@@ -1,90 +1,56 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #252525;
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+body{
+    font-family:'Quicksand-Bold',Helvetica,Arial,sans-serif;
 }
 
-/*cabecera es el bloque de arriba de todo */
 
-.cabecera {
+.menu {
+    box-shadow: 1px 5px 25px rgb(128, 128, 128);
+}
+
+.bgmenu{
     background-color: #ffbd00;
 }
 
-/*contenido es un box para separar el contenido del body de los margenes*/
-.contenido {
-    margin-top: 5px;
-    margin-left: 5px;
-    padding-left: 4rem;
+.bgmenu a:hover{
+    background-color:#ffa600;
 }
 
-/* funcion de carousel para la home*/
-.carouselDiego {
-    text-align: center;
+.bgmenu img:hover{
+    background-color: #ffbd00;
 }
 
-/* imagen logo de el jacaranda */
-.cabecera img {
-    width: 90px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-/*menu de navegacion*/
-.menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: #7dca3e;
-    border-color:rgb(255, 255, 255);
-    border-style: solid;
-    border-width: medium;
-    border-radius: 25px;
-    text-align: right;
-    font-size: 3rem;
-    font-weight:bold;
-}
-  
-.menu li {
-    display: inline-block;
-    margin-right: 7px;
-}
-  
-.menu li:last-child {
-    margin-right: 0;
-}
-  
-.menu li a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    color: #333;
-}
-  
-.menu li a:hover {
-    background-color: #749900;
-    color: #fff;
+.logosize{
+    height: 100px;
 }
 
 /* corresponderia a los h1 */
-.tituloPrincipal {
+
+
+.encabezado {
+    border-radius: 25px;
+    background-color: #c92d1f;
     text-align: center;
-    text-decoration: underline;
-    color: #000000;
-    font-size: 2.2rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    text-shadow: 1px 1px black;
+    border-color: #ffffff;
+    font-size: 1.8rem;
+    border-style: solid;
+    color:rgb(255, 255, 255);
+    margin: 20px 30px 30px 30px;
+    padding: 4px;
+    border-width: medium;
+    box-shadow: 0px 0px 0px 2px rgb(128, 128, 128);
 }
+
 
 /* corresponderia a los h2 */
 .subTitulo {
-    color: #c50008;
-    font-size: 2rem;
-    padding-bottom: 4px;
-    padding-left: 2rem;
+    color: #700004;
+    font-size: 1.2rem;
+    margin: 30px;
+}
+
+.carrusel{
+ padding: 15px 15px 15px 15px;
 }
 
 /* corresponderia a los h3 son agrupadores para tipos de productos */
@@ -95,25 +61,6 @@
     text-decoration-line: underline;
 }
 
-/* novedades y lo que viene abajo es para mostrar los resultados de instagram*/
-.novedades{
-    text-align: center;
-    width: 100%;
-}
-
-.novedades table {
-    border-style: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.novedades table td img {
-    width: 230px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 
 /*alinear form columna izquierda derecha y form total mas botones con el center*/
 
@@ -121,22 +68,6 @@
     display: inline-block;    
     width:40%;
     text-align: right;
-    font-size:1.6rem;
-    vertical-align: top;
-}
-
-.formDer{
-    display: inline-block;
-    width:40%;
-    text-align: left;
-    font-size:1.6rem;
-    vertical-align: top;
-}
-
-.formCent{
-    display: inline-block;
-    width:100%;
-    text-align: center;
     font-size:1.6rem;
     vertical-align: top;
 }
@@ -196,10 +127,9 @@
 
 /* estilo para la caja del footer*/
 .piePagina {
-    background-color: #7dca3e;
+    background-color: #2eb306;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1rem;
     position: fixed;
     bottom:0;
     width: 100%;
@@ -208,8 +138,13 @@
 
 .piePagina a{
     text-decoration: none;
+    color:#ffffff;
     font-weight: initial;
-    font-size: 1.4rem;
+    font-size: 1rem;
+}
+
+.piePagina a.visited{
+    color:#ffffff;
 }
 
 .piePagina a:hover{
@@ -225,7 +160,7 @@
     border-width: thin;
     font-size: 50px;
     display: inline-block;
-    background-color: #00bb2b;
+    background-color: #2eb306;
     width: 50px;
     height: 50px;
     border-radius: 50%;
