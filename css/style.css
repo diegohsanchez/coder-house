@@ -4,19 +4,28 @@ body{
 
 
 .menu {
-    box-shadow: 1px 5px 25px rgb(128, 128, 128);
+    box-shadow: 1px 5px 25px rgb(86, 86, 86);
+    border-bottom-color:#ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
 }
 
 .bgmenu{
-    background-color: #ffbd00;
+    background-color: #ffcc00;
 }
 
 .bgmenu a:hover{
+    border-radius: 25px;
     background-color:#ffa600;
 }
 
 .bgmenu img:hover{
-    background-color: #ffbd00;
+    background-color: #ffcc00;
+}
+
+.selected{
+    border-radius: 25px;
+    box-shadow: inset 0 0 10px #ffa600;
 }
 
 .logosize{
@@ -28,7 +37,8 @@ body{
 
 .encabezado {
     border-radius: 25px;
-    background-color: #c92d1f;
+    background-color: #ffcc00;
+    background: linear-gradient(180deg, rgba(201,45,31,1) 50%, rgba(255,166,0,1) 100%);
     text-align: center;
     text-shadow: 1px 1px black;
     border-color: #ffffff;
@@ -50,7 +60,7 @@ body{
 }
 
 .carrusel{
- padding: 15px 15px 15px 15px;
+ margin: 15px 15px 15px 15px;
 }
 
 /* corresponderia a los h3 son agrupadores para tipos de productos */
@@ -61,63 +71,24 @@ body{
     text-decoration-line: underline;
 }
 
-
-/*alinear form columna izquierda derecha y form total mas botones con el center*/
-
-.formIzq{
-    display: inline-block;    
-    width:40%;
-    text-align: right;
-    font-size:1.6rem;
-    vertical-align: top;
+/*contenido es la caja principal dentro de cada pagina, entre el footer y los titulos y subtitulos*/
+.contenido {
+    margin-bottom: 80px;
 }
 
-/*para armar contenido se en nosotras*/
-.imgIzq{
-    width: 30%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-}
-
-.textoDer{
-    display: inline-block;
-    width: 60%;
+/*Texto tipo News*/
+.newspaper {
     text-align: justify;
-    font-size:1.8rem;
-    vertical-align: top;
 }
 
-.imgDer{
-    display: inline-block;
-    width: 30%;
-    text-align: right;
-    vertical-align: top;
-}
-
-.textoIzq{
-    display: inline-block;
-    width: 60%;
-    text-align: justify;
-    font-size:1.8rem;
-}
-
-.fullText{
-    width: 100%;
-    text-align: justify;
-    font-size:1.8rem;
-    vertical-align: top;
-}
-
-/*estilo para cajas con descripciones largas*/
-.texto {
-    font-size:1.8rem;
+.founders{
+    height:220px;
 }
 
 /*Mapa*/
 .iframesExt {
     width="100%";
-    text-align: center;
+    text-align: left;
 }
 
 /*Estas son los thumbnails de producto*/
@@ -127,13 +98,15 @@ body{
 
 /* estilo para la caja del footer*/
 .piePagina {
-    background-color: #2eb306;
+    background-color: #749900;
     text-align: center;
     font-size: 1rem;
     position: fixed;
     bottom:0;
     width: 100%;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 0px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
 }
 
 .piePagina a{

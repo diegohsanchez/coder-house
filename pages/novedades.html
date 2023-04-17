@@ -5,59 +5,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
-    <title>Novedades</title>
+    <title>Novedades - El Jacaranda</title>
 </head>
 
 <body>
     <header>
-        <div class="cabecera">
-            <img src="../assets/img/logojacaranda.gif">
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotras.html">Nosotras</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid menu bgmenu">
+              <a class="navbar-brand" href="#" class="img" style="padding:0;">
+                <img src="../assets/img/logojacaranda.png" alt="El Jacaranda" height="100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu bgmenu">
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item" href="../pages/productos.html#puzzles">Puzzles</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#juegos">Juegos</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#cocina">Cocina</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotras.html">Nosotras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link selected" href="../pages/novedades.html">Novedades</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <body>
-        <h1 class="tituloPrincipal">Consulte aquí nuestras novedades</h1>
-        <div class="novedades">
-            <table>
-                <tr>
-                    <td><img src="../assets/img/ig/1.jpg"></td>
-                    <td><img src="../assets/img/ig/2.jpg"></td>
-                    <td><img src="../assets/img/ig/3.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/img/ig/4.jpg"></td>
-                    <td><img src="../assets/img/ig/5.jpg"></td>
-                    <td><img src="../assets/img/ig/6.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/img/ig/7.jpg"></td>
-                    <td><img src="../assets/img/ig/8.jpg"></td>
-                    <td><img src="../assets/img/ig/9.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/img/ig/10.jpg"></td>
-                    <td><img src="../assets/img/ig/11.jpg"></td>
-                    <td><img src="../assets/img/ig/12.jpg"></td>
-                </tr>
-            </table>
+    <main>
+        <h1 class="encabezado">Consulte aquí nuestras novedades</h1>
+        <div class="container contenido">
+            <div class="row novedades mb-3">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/1.jpg" class="card-img-top" alt="Instagram 1">
+                        <div class="card-body">
+                        <h5 class="card-title">Juegos en Caja</h5>
+                        <p class="card-text">Varios juegos en cartón para primera infancia: Memo Tests, Domino, Asociación y varias opciones más.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 4/5</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/2.jpg" class="card-img-top" alt="Instagram 2">
+                        <div class="card-body">
+                        <h5 class="card-title">Puzzle de 225</h5>
+                        <p class="card-text">Llegó el desafio mas grande de la familia: 225 a toda ilustración con temática de Océano y Cosmos.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 2/5</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/3.jpg" class="card-img-top" alt="Instagram 3">
+                        <div class="card-body">
+                        <h5 class="card-title">La Foto Familiar</h5>
+                        <p class="card-text">Casi toda la familia completa esperando la llegada del nuevo de 225! Ya llega.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 29/4</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row novedades mb-3">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/4.jpg" class="card-img-top" alt="Instagram 4">
+                        <div class="card-body">
+                        <h5 class="card-title">Las alas y las alas</h5>
+                        <p class="card-text">Sean de hada o de avión que sirvan para volar por la imaginación!!</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 25/4</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/5.jpg" class="card-img-top" alt="Instagram 5">
+                        <div class="card-body">
+                        <h5 class="card-title">Qué susto!</h5>
+                        <p class="card-text">Se llama asi pero no es para tanto, mirá esta bruja tomadora de mate y esos esqueletos turistas! Divertite con temática de Halloween.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Fuente: Instagram</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/6.jpg" class="card-img-top" alt="Instagram 6">
+                        <div class="card-body">
+                        <h5 class="card-title">Tarea dificil el de La Puna</h5>
+                        <p class="card-text">A los rompecabezas los vuelven dificil 3 cosas, la cantidad de piezas, el tamaño da las piezas y el dibujo. De los de 100 la puna es desafiante porque todas parecen ir bien en todos lados.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 2/4</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row novedades mb-3">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/7.jpg" class="card-img-top" alt="Instagram 7">
+                        <div class="card-body">
+                        <h5 class="card-title">Mesa de alimentos sanos</h5>
+                        <p class="card-text">Unos para el cuerpo, otros para la mente y si los hacemos en familia o con amigos, para el alma también.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Gentileza de Matilde Robedo</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/8.jpg" class="card-img-top" alt="Instagram 8">
+                        <div class="card-body">
+                        <h5 class="card-title">225 años luz en piezas</h5>
+                        <p class="card-text">El otro grande de la colección junto con oceano, lindo para hacer de a varios.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 1/4</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="../assets/img/ig/9.jpg" class="card-img-top" alt="Instagram 9">
+                        <div class="card-body">
+                        <h5 class="card-title">Duos de crias con sus padres y madres</h5>
+                        <p class="card-text">Preciosas ilustracion de Perica muestran nuestros animales autóctonos con sus pequeños y pequeñas.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Instagram del 23/3</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
-    <footer class="piePagina">
-        <div>
+    </main>
+    <footer class="footer piePagina">
+        <div class="container justify-content-center">
             Todos los derechos de imagen reservados -  <a href="mailto:admin@eljacarandajuegos.com">admin@eljacarandajuegos.com</a>
-            <a class="wasap" href="http://wa.me/+5491130978116" target="_blank">
+            <a href="http://wa.me/+5491130978116" target="_blank" class="wasap">
                 <i class="icon fa-brands fa-whatsapp "></i>
             </a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>
