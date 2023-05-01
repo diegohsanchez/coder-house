@@ -1,0 +1,127 @@
+.{
+    font-family:$tipografia;
+}
+
+@import "header.scss";
+
+
+/*
+.selected{
+    border-radius: 25px;
+    box-shadow: inset 0 0 10px #ffa600;
+}
+*/
+
+/* corresponderia a los h1 */
+
+
+.encabezado {
+    border-radius: 25px;
+    background-color: #ffcc00;
+    background: linear-gradient(180deg, rgba(201,45,31,1) 50%, rgba(255,166,0,1) 100%);
+    text-align: center;
+    text-shadow: 1px 1px black;
+    border-color: #ffffff;
+    font-size: 1.8rem;
+    border-style: solid;
+    color:rgb(255, 255, 255);
+    margin: 20px 30px 30px 30px;
+    padding: 4px;
+    border-width: medium;
+    box-shadow: 0px 0px 0px 2px rgb(128, 128, 128);
+}
+
+
+/* corresponderia a los h2 */
+.subTitulo {
+    color: #700004;
+    font-size: 1.2rem;
+    margin: 30px;
+}
+
+.carrusel{
+ margin: 15px 15px 15px 15px;
+}
+
+/* corresponderia a los h3 son agrupadores para tipos de productos */
+.conjunto {
+    padding-left: 4rem;
+    font-size: 1.8rem;
+    padding-bottom: 4px;
+    text-decoration-line: underline;
+}
+
+/*contenido es la caja principal dentro de cada pagina, entre el footer y los titulos y subtitulos*/
+.contenido {
+    margin-bottom: 80px;
+}
+
+/*Texto tipo News*/
+.newspaper {
+    text-align: justify;
+}
+
+/* fotos de las dueñas y de perica */
+.founders{
+    height:220px;
+}
+
+/*Mapa*/
+.iframesExt {
+    width:"100%";
+    text-align: left;
+}
+
+/*Estas son los thumbnails de producto*/
+.miniatura{
+    width: 25rem;
+}
+
+/* estilo para la caja del footer*/
+.piePagina {
+    background-color: #749900;
+    text-align: center;
+    font-size: 1rem;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding: 5px 5px 5px 0px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+
+.piePagina a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: initial;
+    font-size: 1rem;
+}
+
+.piePagina a.visited{
+    color:#ffffff;
+}
+
+.piePagina a:hover{
+    text-decoration:underline;
+}
+
+/*logo de whatsapp*/
+.icon {
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    border-color: #000000;
+    border-style: inset;
+    border-width: thin;
+    font-size: 50px;
+    display: inline-block;
+    background-color: #2eb306;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+
+
