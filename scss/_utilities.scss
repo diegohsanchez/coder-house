@@ -1,0 +1,23 @@
+.encabezado {
+    border-radius: 25px;
+    background-color: #ffcc00;
+    background: linear-gradient(180deg, rgba(201,45,31,1) 50%, rgba(255,166,0,1) 100%);
+    text-align: center;
+    text-shadow: 1px 1px black;
+    border-color: #ffffff;
+    font-size: 1.8rem;
+    border-style: solid;
+    color:rgb(255, 255, 255);
+    margin: 20px 30px 30px 30px;
+    padding: 4px;
+    border-width: medium;
+    box-shadow: 0px 0px 0px 2px rgb(128, 128, 128);
+}
+.subTitulo {
+    color: #700004;
+    font-size: 1.4rem;
+    margin: 30px;
+}
+.contenido {
+    margin-bottom: 80px;
+}

@@ -1,0 +1,46 @@
+/* estilo para la caja del footer*/
+footer{
+    div{
+        a{
+            text-decoration: none;
+            color:#ffffff;
+            font-weight: initial;
+            font-size: 1rem;
+            &.visited{
+                color:#be0d89;
+            }
+            &:hover{
+                text-decoration:underline;
+                background-color:$footercolor;
+            }
+            .icon{
+                color: rgb(255, 255, 255);
+                vertical-align: top;
+                border-color: #000000;
+                border-style: inset;
+                border-width: thin;
+                font-size: 50px;
+                display: inline-block;
+                background-color: #2eb306;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                position:fixed;
+                right:0;
+                bottom:0;
+            }
+        }
+    }
+}
+.piePagina {
+        background-color: $footercolor;
+        text-align: center;
+        font-size: 1rem;
+        position: fixed;
+        bottom:0;
+        width: $ancho100;
+        padding: 5px 5px 5px 0px;
+        margin-top: 15px;
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}

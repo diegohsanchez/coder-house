@@ -1,17 +1,99 @@
-/* Error: Expected identifier.
- *   ,
- * 1 | .{
- *   |  ^
- *   '
- *   scss\base.scss 1:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a   \2577 \a 1 \2502  .{\d\a   \2502   ^\a   \2575 \a   scss\\base.scss 1:2  root stylesheet";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand-Bold", Helvetica, Arial, sans-serif;
 }
+
+nav div a {
+  padding: 0;
+}
+nav div a img {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+nav div a img:hover {
+  background-color: #ffcc00;
+}
+nav div a:hover {
+  border-radius: 25px;
+  background-color: #ffa600;
+}
+nav div a .selected {
+  border-radius: 25px;
+  box-shadow: inset 0 0 10px #ffa600;
+}
+nav div ul li a {
+  padding: 0;
+}
+nav div ul li a img {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+nav div ul li a img:hover {
+  background-color: #ffcc00;
+}
+nav div ul li a:hover {
+  border-radius: 25px;
+  background-color: #ffa600;
+}
+nav .menu {
+  box-shadow: 1px 5px 25px rgb(86, 86, 86);
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+nav .bgmenu {
+  background-color: #ffcc00;
+}
+
+/* estilo para la caja del footer*/
+footer div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: initial;
+  font-size: 1rem;
+}
+footer div a.visited {
+  color: #be0d89;
+}
+footer div a:hover {
+  text-decoration: underline;
+  background-color: #749900;
+}
+footer div a .icon {
+  color: rgb(255, 255, 255);
+  vertical-align: top;
+  border-color: #000000;
+  border-style: inset;
+  border-width: thin;
+  font-size: 50px;
+  display: inline-block;
+  background-color: #2eb306;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.piePagina {
+  background-color: #749900;
+  text-align: center;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 5px 5px 0px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+
+.newspaper {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=estilos.css.map */
