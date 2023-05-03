@@ -1,51 +1,110 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
   font-family: "Quicksand-Bold", Helvetica, Arial, sans-serif;
 }
 
-nav div a {
+@font-face {
+  font-family: "MiFuente";
+  src: url("../fonts/TLCOE.ttf");
+}
+main .encabezado {
+  border-radius: 25px;
+  background-color: #ffcc00;
+  background: linear-gradient(180deg, rgb(201, 45, 31) 50%, rgb(255, 166, 0) 100%);
+  text-align: center;
+  text-shadow: 1px 1px black;
+  border-color: #ffffff;
+  font-size: 1.4rem;
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  margin: 20px 30px 30px 30px;
+  padding: 4px;
+  border-width: medium;
+  box-shadow: 0px 0px 0px 2px rgb(128, 128, 128);
+  font-family: "MiFuente", "Quicksand-Bold", Helvetica, Arial, sans-serif, sans-serif;
+}
+main .subTitulo {
+  color: #700004;
+  font-size: 1.4rem;
+  margin: 30px;
+}
+main .contenido {
+  margin-bottom: 80px;
+}
+main .iframesExt {
+  width: "100%";
+  text-align: center;
+}
+
+nav div {
   padding: 0;
 }
-nav div a img {
+nav div .anclaLogo {
+  padding: 0;
+}
+nav div .anclaLogo .imagenLogo {
   height: 100px;
   padding: 0;
   margin: 0;
 }
-nav div a img:hover {
-  background-color: #ffcc00;
-}
-nav div a:hover {
-  border-radius: 25px;
+nav div .anclaLogo:hover {
   background-color: #ffa600;
 }
-nav div a .selected {
+nav div .anclaLogo .selected {
   border-radius: 25px;
   box-shadow: inset 0 0 10px #ffa600;
 }
-nav div ul li a {
-  padding: 0;
-}
-nav div ul li a img {
-  height: 100px;
-  padding: 0;
-  margin: 0;
-}
-nav div ul li a img:hover {
-  background-color: #ffcc00;
-}
-nav div ul li a:hover {
+nav div .nav-link:hover {
   border-radius: 25px;
   background-color: #ffa600;
 }
-nav .menu {
+nav div .dropdown-item:hover {
+  border-radius: 25px;
+  background-color: #ffa600;
+}
+
+.menu {
   box-shadow: 1px 5px 25px rgb(86, 86, 86);
   border-bottom-color: #ffffff;
   border-bottom-style: solid;
   border-bottom-width: 6px;
 }
-nav .bgmenu {
+
+.bgmenu {
   background-color: #ffcc00;
+}
+
+.carrusel {
+  margin: 15px 15px 15px 15px;
+}
+
+/* corresponderia a los h3 son agrupadores para tipos de productos */
+.conjunto {
+  padding-left: 4rem;
+  font-size: 1.3rem;
+  padding-bottom: 4px;
+  text-decoration-line: underline;
+}
+
+.miniatura {
+  width: 25rem;
+}
+
+.novedades {
+  box-shadow: 1px 5px 25px rgb(86, 86, 86);
+}
+
+/* fotos de las dueñas y de perica */
+.founders {
+  height: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newspaper {
+  text-align: justify;
 }
 
 /* estilo para la caja del footer*/
@@ -90,10 +149,6 @@ footer div a .icon {
   padding: 5px 5px 5px 0px;
   margin-top: 15px;
   box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
-}
-
-.newspaper {
-  text-align: justify;
 }
 
 /*# sourceMappingURL=estilos.css.map */

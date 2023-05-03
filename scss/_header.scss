@@ -1,52 +1,50 @@
- nav{
-    div{
-        a{
-            padding:0;
-            img{
-                height:100px;
-                padding:0;
-                margin:0;
-                &:hover{
-                background-color:$menuclaro;
-                }
-            }
-            &:hover{
+ nav {
+     div {
+         padding: 0;
+
+         .anclaLogo {
+             padding: 0;
+
+             .imagenLogo {
+                 height: 100px;
+                 padding: 0;
+                 margin: 0;
+             }
+
+             &:hover {
+                 background-color: $menuoscuro;
+             }
+
+             .selected {
+                 border-radius: 25px;
+                 box-shadow: inset 0 0 10px #ffa600;
+             }
+         }
+
+         .nav-link {
+             &:hover {
+                 border-radius: 25px;
+                 background-color: $menuoscuro;
+             }
+         }
+         .dropdown-item{
+            &:hover {
                 border-radius: 25px;
-                background-color:$menuoscuro;
+                background-color: $menuoscuro;
             }
-            .selected{
-                border-radius: 25px;
-                box-shadow: inset 0 0 10px #ffa600;
-            }
-    
-        }
-    ul{
-        li{
-            a{
-                padding:0;
-                img{
-                    height:100px;
-                    padding:0;
-                    margin:0;
-                    &:hover{
-                    background-color:$menuclaro;
-                    }
-                }
-                &:hover{
-                    border-radius: 25px;
-                    background-color:$menuoscuro;
-                }
-            }
-        }
-    }
-    }
-    .menu{
-        box-shadow: 1px 5px 25px rgb(86, 86, 86);
-        border-bottom-color:#ffffff;
-        border-bottom-style: solid;
-        border-bottom-width: 6px;
-    }
-    .bgmenu{
-        background-color: $menuclaro;
+         }
     }
 }
+
+
+
+ .menu {
+     box-shadow: 1px 5px 25px rgb(86, 86, 86);
+     border-bottom-color: #ffffff;
+     border-bottom-style: solid;
+     border-bottom-width: 6px;
+ }
+
+ .bgmenu {
+     background-color: $menuclaro;
+ }
