@@ -1,1 +1,8 @@
+.col-form-label{
+    @include sombrasForm(1px, 1px, 5px, #8f8f8f);
+}
+
+.oficina{
+    @include sombrasForm(1px, 1px, 0px, #272727);
+}
 

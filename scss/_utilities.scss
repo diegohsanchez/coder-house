@@ -2,6 +2,11 @@
     font-family: 'MiFuente';
     src: url('../fonts/TLCOE.ttf');
 }
+
+@mixin sombrasForm($x, $y, $blur, $color) {
+    text-shadow: $x $y $blur $color;
+  }
+
 main{
     .encabezado {
         border-radius: 25px;

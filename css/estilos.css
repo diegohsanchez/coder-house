@@ -96,6 +96,14 @@ nav div .dropdown-item:hover {
   box-shadow: 1px 5px 25px rgb(86, 86, 86);
 }
 
+.card-img-top {
+  transition: transform 1s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
 /* fotos de las dueñas y de perica */
 .founders {
   height: 220px;
@@ -105,6 +113,14 @@ nav div .dropdown-item:hover {
 
 .newspaper {
   text-align: justify;
+}
+
+.col-form-label {
+  text-shadow: 1px 1px 5px #8f8f8f;
+}
+
+.oficina {
+  text-shadow: 1px 1px 0px #272727;
 }
 
 /* estilo para la caja del footer*/

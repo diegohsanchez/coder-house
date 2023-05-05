@@ -5,3 +5,11 @@
 .novedades{
     box-shadow: 1px 5px 25px rgb(86, 86, 86);
 }
+
+.card-img-top{
+    transition:transform 1s;
+}
+
+.card-img-top:hover{
+    transform:scale(1.1);
+}
