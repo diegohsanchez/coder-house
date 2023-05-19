@@ -32,8 +32,25 @@ main{
     .contenido {
         margin-bottom: 80px;
     }
-    .iframesExt {
+/*    .iframesExt {
         width:"100%";
         text-align: center;
+    }*/
+    .iframesExt iframe {
+        width: 100%; /* Opcional: ajusta el ancho del iframe según tus necesidades */
+        height: 400px; /* Opcional: ajusta la altura del iframe según tus necesidades */
+    }
+    
+    @media (max-width: 768px) {
+        .iframesExt iframe {
+          font-size: 0.9rem;         
+        }
+    }
+
+      
+    @media (min-width: 769px) {
+        .iframesExt iframe {
+            font-size: 1rem; 
+        }
     }
 }

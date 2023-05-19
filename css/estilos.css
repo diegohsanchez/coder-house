@@ -9,6 +9,12 @@
   font-family: "MiFuente";
   src: url("../fonts/TLCOE.ttf");
 }
+main {
+  /*    .iframesExt {
+          width:"100%";
+          text-align: center;
+      }*/
+}
 main .encabezado {
   border-radius: 25px;
   background-color: #ffcc00;
@@ -33,9 +39,19 @@ main .subTitulo {
 main .contenido {
   margin-bottom: 80px;
 }
-main .iframesExt {
-  width: "100%";
-  text-align: center;
+main .iframesExt iframe {
+  width: 100%; /* Opcional: ajusta el ancho del iframe según tus necesidades */
+  height: 400px; /* Opcional: ajusta la altura del iframe según tus necesidades */
+}
+@media (max-width: 768px) {
+  main .iframesExt iframe {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 769px) {
+  main .iframesExt iframe {
+    font-size: 1rem;
+  }
 }
 
 nav div {
@@ -104,11 +120,24 @@ nav div .dropdown-item:hover {
   transform: scale(1.1);
 }
 
+.achicado {
+  font-size: 1.3rem;
+  color: #749900;
+}
+
 /* fotos de las dueñas y de perica */
-.founders {
+.founders, .perica {
   height: 220px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(139, 139, 139);
+}
+
+.perica {
+  height: 300px;
+  border-width: 3px;
 }
 
 .newspaper {

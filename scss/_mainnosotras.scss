@@ -1,10 +1,20 @@
 /* fotos de las dueñas y de perica */
 .founders{
     height:220px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(139, 139, 139);
+}
+  
+.perica {
+    @extend .founders;
+    height: 300px; 
+    border-width: 3px;
 }
 
 .newspaper {
     text-align: justify;
 }
+
